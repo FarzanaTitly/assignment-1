@@ -6,6 +6,7 @@ h1{
     font-family: 'The Nautigal', cursive;
     font-family: 'Yeseva One', cursive;
 }
+
 .mission-2022{
     color: palevioletred;
 }
@@ -14,22 +15,46 @@ h1{
     border-color:rgb(250, 105, 79);
     padding-left: 6px;
 }
-section{
+.fexible-container{
     display: flex;
     text-align: justify;
 }
 .half-width{
-    width: 50%;
+    width: 60%;
     padding: 5%;
 }
 .half-width img{
     width: 70%;
+    align-self: auto;
 }
 .explore-now{
     text-decoration: none;
-   background-color: rgb(231, 108, 129);
+    background: linear-gradient(lightpink,tomato);
    padding: 10px 20px;
    border-radius: 5%;
    color: white;
    font font-weight: 700;
 }
+#show-middle{
+    text-align: center;
+}
+.mission-vission-goals{
+    box-shadow: 7px 7px 30px gray;
+    width: 40%;
+    margin: 2%;
+    padding: 4%;
+    border-radius: 7%;
+}
+.mission{
+    background-color: paleturquoise;
+}
+.vission{
+    background-color: lightcyan;
+}
+.goals{
+    background-color: lightpink;
+}
+.mission-vission-goals img{
+    width: 50%;
+}
+
