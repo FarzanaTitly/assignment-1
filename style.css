@@ -11,7 +11,7 @@ h2{
 }
 p{
     font-family:verdana;
-    font-size: 18px;
+    font-size: 15px;
 }
 .mission-2022{
     color: palevioletred;
@@ -45,7 +45,7 @@ p{
    margin:;
 
 }
-#show-middle{
+.show-middle{
     text-align: center;
    
 }
@@ -78,16 +78,21 @@ p{
     background-repeat: no-repeat;
     background-position: left;
     background-size: 15%;
-    
-
 }
 .global-area{
     background-image: url(mission-2022-main/images/shapes/shape-5.png);
     background-repeat: no-repeat;
     background-position:bottom right;
     background-size: 25%;
-   
 }
+
+.corona-area{
+    background-image: url(mission-2022-main/images/shapes/shape-3.png);
+    background-repeat: no-repeat;
+    background-position:top left;
+    background-size: 25%;
+    margin-top: 5%;
+}  
 footer {
     background: black;
     text-align: center;
@@ -98,5 +103,7 @@ footer {
 #footer-area{
     font-size:50px;
 }
-    
+
+
+
 
